@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="c_Piont.cpp" />
     <ClCompile Include="_Point_2D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="c_Piont.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
